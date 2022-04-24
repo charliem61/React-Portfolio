@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Footer from './Components/Footer';
 import Nav from './Components/Nav';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -26,6 +27,8 @@ function App() {
           <Nav renderPage={renderPage} setRenderPage={setRenderPage}></Nav>
       </header>
       <RenderHandler />
+      <Footer />
+
     </div>
   );
 }
