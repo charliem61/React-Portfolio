@@ -26,7 +26,6 @@ function App() {
   }
   return (
     <div className="App" style={{ backgroundImage: `url(${background})` }}>
-      sdaffasd
     <header>
       <Navigation renderPage={renderPage} setRenderPage={setRenderPage} />
     </header>
