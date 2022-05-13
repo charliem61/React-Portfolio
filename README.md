@@ -33,5 +33,5 @@ CSS
 Javascript
 
 ## How to Contribute
-
-https://github.com/charliem61
+LIVE LINK: https://mason-walkers-portfolio.netlify.app
+REPOSITORY: https://github.com/charliem61
