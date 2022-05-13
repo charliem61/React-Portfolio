@@ -8,6 +8,7 @@ import Portfolio from "./Pages/Portfolio";
 import background from "./assets/backGround.jpg";
 import { Container } from "reactstrap";
 
+
 function App() {
   const [renderPage, setRenderPage] = useState("About");
   function RenderHandler() {
@@ -25,15 +26,16 @@ function App() {
   }
   return (
     <div className="App" style={{ backgroundImage: `url(${background})` }}>
-      <header>
-        <Navigation renderPage={renderPage} setRenderPage={setRenderPage} />
-      </header>
-      <Container className="mx-auto">
-        <RenderHandler />
-      </Container>
-      <Footer />
-    </div>
-  );
+      sdaffasd
+    <header>
+      <Navigation renderPage={renderPage} setRenderPage={setRenderPage} />
+    </header>
+    <Container className="mx-auto">
+      <RenderHandler />
+    </Container>
+    <Footer />
+  </div>
+  )
 }
 
 export default App;

@@ -13,7 +13,7 @@ function About(){
       width="40rem"
     />
     </Card>
-            <p>
+            <p className="white">
             I am a former EMT and currently a Title Examiner for Fidelity National
             Financial. I'm also a student at the UW for Full Stack Web
             Development. My goal is to someday work in AI, or in

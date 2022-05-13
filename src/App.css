@@ -1,26 +1,15 @@
-
-
 .App {
   text-align: center;
-  height: 100%;
 }
-
-
+.white{
+  color:white
+}
+.whiteBox{
+  background-color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-.flex-div{
-  display:flex;
-
-}
-footer{
-  position:absolute;
-  bottom:0;
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color:whitesmoke;
 }
 
 @media (prefers-reduced-motion: no-preference) {
